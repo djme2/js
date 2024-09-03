@@ -1,0 +1,35 @@
+Énoncé de l'exercice : Pierre, Feuille, Ciseaux (bo3)
+
+Écrivez un programme en JavaScript pour permettre à l'utilisateur de jouer au jeu classique de "pierre, feuille, ciseaux" contre l'ordinateur dans une série de trois manches (best of three).
+
+Instructions :
+
+Le programme démarre avec un score de 0 pour le joueur et un score de 0 pour l'ordinateur.
+Pour chaque manche :
+Le programme demande à l'utilisateur de saisir son choix (pierre, feuille ou ciseaux).
+L'ordinateur génère un choix aléatoire.
+Les choix sont comparés pour déterminer le vainqueur de la manche selon les règles du jeu.
+Le résultat de la manche (gagné, perdu ou égalité) est affiché, ainsi que le score actuel.
+La partie continue jusqu'à ce qu'un des joueurs ait remporté deux manches.
+À la fin de la partie, le programme annonce le gagnant de la série (joueur ou ordinateur) ainsi que le score final.
+Exemple de sortie attendue :
+
+Manche 1 :
+Joueur : Pierre
+Ordinateur : Ciseaux
+Résultat : Le joueur gagne la manche !
+
+Score actuel :
+Joueur : 1
+Ordinateur : 0
+
+Manche 2 :
+Joueur : Feuille
+Ordinateur : Pierre
+Résultat : Le joueur gagne la manche !
+
+Score actuel :
+Joueur : 2
+Ordinateur : 0
+
+Le joueur remporte la série avec un score de 2-0 !

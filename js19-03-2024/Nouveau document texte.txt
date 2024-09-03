@@ -1,0 +1,33 @@
+Soit le document HTML suivant :
+[10:58]
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TEST DOM</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1 id="titre">Mon test DOM</h1>
+        <div id="dv">
+            <h1>premier fils</h1>
+            <h2>deuxieme fils</h2>
+            <h3>troisième fils</h3>
+        </div>
+        <input type="button" value="Effacer" onclick="effacerDOM(???)">
+        <input type="button" value="Remplacer texte" onclick="remplacerTexte(???)">
+        <input type="button" value="Afficher texte" onclick="alert(getTexte(???))">
+        <input type="button" value="Effacer Titre" onclick="effacerTitre()">
+
+        <script src="js/dom-js.js"></script>
+    </body>
+</html>
+[10:58]
+créer les 4 fonctions JS :
+[10:59]
+1- effacerDOM(elt) : permet d'effacer la branche dont l'id = "dv"
+[11:00]
+2- remplacerTexte(elt) : changer le texte du "<h1>premier fils</>"
+[11:01]
+3- getTexte(elt) : transformer la branche id="dv" en texte
+[11:02]
+4- effacerTitre(elt) : effacer le h1 dont l'id="titre"
